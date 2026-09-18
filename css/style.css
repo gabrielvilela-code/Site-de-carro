@@ -15,22 +15,9 @@
 --font2: 'Poppins', sans-serif;
 --font3: 'Inter', sans-serif;
  }
-
- @media (max-width: 750px) {
-  .navegation{
-    position: fixed;
-    right: -75%;
-     width: 35%;
-    top: 0;
-    height: 100%;
-    flex-direction: column ;
-    background-color: var(--cor1);
-    transition: 0.3s ease;
-  }
-  .navegation.ativo{
-   right: 0;
-  }
- }
+ 
+ 
+ 
 header{
     background-color: var(--cor1);
 }
@@ -69,6 +56,9 @@ header{
    
    
 }
+.fechar-menu{
+  display: none;}
+
 li,a{
  color: var(--cor3);
   text-decoration: none;
@@ -160,3 +150,43 @@ li,a{
  align-items: center;
  justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px) {
+  .navegation{
+    position: fixed;
+    right: -75%;
+     width: 35%;
+    top: 0;
+    height: 100%;
+    padding: 40px 19px 27px 29px;
+    flex-direction: column ;
+    background-color: var(--cor1);
+    transition: 0.3s ease;
+  }
+  .navegation.ativo{
+   right: 0;
+  }
+  .fechar-menu{
+    display: block;
+  }
+ }
