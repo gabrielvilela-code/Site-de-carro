@@ -115,11 +115,13 @@ li,a{
   margin-left: 10%;
   padding-top: 70px;
 }
- .h3-linha{
+ .h2-linha{
   color: var(--cor3);
+  font-size: 1.0rem;
+  font-family: var(--font1);
  
 }
-.bem-vindo h2{
+.bem-vindo h3{
   color: var(--cor3);
   font-size: 3.9rem;
   padding-top: 20px;
@@ -155,19 +157,31 @@ li,a{
  align-items: center;
  justify-content: center;
 }
-.box-cards{
+
+#carros{
   padding-top: 30px;
-  
 }
-.box-cards h2{
+#carros h3{
   color: var(--cor3);
+  font-size: 1.8rem ;
+  font-family: var(--font1);
   
 }
+
+.box-cards{
+  font-family: var(--font3);
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  justify-content: center;
+  align-items: center;
+}
+
 .cards-carros{
-  
+  background-color: var(--cor2);
+  color: var(--cor3) ;
+  border-radius: 20px;
+  padding: 20px;
 }
-
-
 
 
 
