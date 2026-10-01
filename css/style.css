@@ -344,6 +344,13 @@ background-image: url(../imagens/dúvidas-carro.jpg);
   font-family: var(--font1);
   padding: 0px 10px;
 }
+.formulario{
+  display: flex;
+  
+}
+.form-div{
+  display: flex;
+}
 
 
 @media (max-width: 750px) {
