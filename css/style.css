@@ -30,7 +30,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--cor3)
+    color: var(--cor3);
+   
     
  }
  .logo img{
@@ -409,14 +410,50 @@ background-image:   linear-gradient(to right, rgba(8, 10, 13, 0.534) 0%, rgba(8,
 .rodape{
   background-color: var(--cor1);
 }
+.rodape{
+  display: flex;
+  align-items: center;
+  background-color: var(--cor1);
+  gap: 20%;
 
+}
+.rodape img{
+  width: 100px;
+  margin-right: 0px;
+  
+}
 
+.icons-rodape{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+}
+.icons-rodape:hover{
+  background-color: var(--cor3);
+  border-radius: 30px;
+}
+ .ul-rodape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+ }
+.rodape .navegation{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+ 
+}
+.ul-rodape p{
+  font-size: 1.29rem;
+  color: white;
+}
 
-
-
-
-
-
+.ul-rodape p span{
+  color: var(--cor5);
+} 
 
 
 
