@@ -198,7 +198,6 @@ li,a{
   color: var(--cor3);
   border-radius: 30px;
   padding: 0 0 20px ;
-  width: 28%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 5%;
  
@@ -327,7 +326,7 @@ background-image:   linear-gradient(to right, rgba(8, 10, 13, 0.534) 0%, rgba(8,
   justify-content: left;
 }
 .duvidas{
-  padding: 0px 20px 30% 81px;
+  padding: 0px 5% 60px 5%;
   display: flex;
   flex-direction: column;
   
@@ -346,11 +345,9 @@ background-image:   linear-gradient(to right, rgba(8, 10, 13, 0.534) 0%, rgba(8,
   padding: 0px 10px;
 }
 .formulario{
-  width: 50%;
-  padding: 30px;
-  margin-left: -33%;
+  width: 90%;
+  padding: 10px;
  
-  
 }
 .form-div{
   display: flex;
@@ -375,6 +372,7 @@ background-image:   linear-gradient(to right, rgba(8, 10, 13, 0.534) 0%, rgba(8,
 }
 .form-div textarea{
   height: 120px;
+  width: 90%;
   padding: 15px;
   background-color: transparent;
   border: 1px solid #444;
@@ -408,68 +406,29 @@ background-image:   linear-gradient(to right, rgba(8, 10, 13, 0.534) 0%, rgba(8,
     opacity: 0.8;
 }
 .rodape{
+  padding: 20px;
   background-color: var(--cor1);
 }
-.rodape{
+.ul-rodape{
   display: flex;
   align-items: center;
-  background-color: var(--cor1);
-  gap: 20%;
+  justify-content: space-around;
 
 }
-.rodape img{
-  width: 100px;
-  margin-right: 0px;
-  
-}
-
-.icons-rodape{
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  
-}
-.icons-rodape:hover{
-  background-color: var(--cor3);
-  border-radius: 30px;
-}
- .ul-rodape{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
- }
-.rodape .navegation{
+.navegation{
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 25px;
- 
+  gap: 15px;
+  
 }
 .ul-rodape p{
-  font-size: 1.29rem;
-  color: white;
+   color: var(--cor3);
+   font-size: 1.2rem;
 }
-
-.ul-rodape p span{
+ .ul-rodape span{
   color: var(--cor5);
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ }
 
 
 
@@ -488,10 +447,39 @@ background-image:   linear-gradient(to right, rgba(8, 10, 13, 0.534) 0%, rgba(8,
     background-color: var(--cor1);
     transition: 0.3s ease;
   }
-  .navegation.ativo{
+   .navegation.ativo{
    right: 0;
   }
   .fechar-menu{
     display: block;
   }
+  .box-cards{
+    flex-direction: column;
+  }
+  .sobre-texto{
+    max-width: 90%;
+  }
+  .sobre-texto h2{
+    font-size: 1.90rem;
+    padding-bottom: 5px;
+  }
+  .sobre-texto h3{
+    font-size: 2.0rem;
+   
+  }
+  .sobre-texto p{
+    font-size: 1.3rem;
+   }
+  
+   .img-estrada{
+    flex-direction:column;
+   }
+   .duvidas{
+    width: 90% ;
+   }
+   .rodape{
+    flex-direction: column;
+    gap: 5px;
+   }
+ 
  }
