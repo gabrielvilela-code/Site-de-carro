@@ -74,6 +74,9 @@ li,a{
     align-items: center;
     gap: 10px; 
 }
+#menu{
+  display: none;
+}
 
 .navegation a {
   position: relative;
@@ -345,7 +348,7 @@ background-image:   linear-gradient(to right, rgba(8, 10, 13, 0.534) 0%, rgba(8,
   padding: 0px 10px;
 }
 .formulario{
-  width: 90%;
+  width: 50%;
   padding: 10px;
  
 }
@@ -433,7 +436,18 @@ background-image:   linear-gradient(to right, rgba(8, 10, 13, 0.534) 0%, rgba(8,
 
 
 
-
+@media (max-width:1200px) {
+   .box-cards{
+    flex-wrap: wrap;
+    justify-content:center ;
+   }
+   .h3-linha-des{
+    text-align: center;
+   }
+   .H2-carros{
+    text-align: center;
+   }
+}
 
 @media (max-width: 750px) {
   .navegation{
@@ -446,6 +460,10 @@ background-image:   linear-gradient(to right, rgba(8, 10, 13, 0.534) 0%, rgba(8,
     flex-direction: column ;
     background-color: var(--cor1);
     transition: 0.3s ease;
+  }
+#menu{
+  
+    display: block;
   }
    .navegation.ativo{
    right: 0;
@@ -474,12 +492,11 @@ background-image:   linear-gradient(to right, rgba(8, 10, 13, 0.534) 0%, rgba(8,
    .img-estrada{
     flex-direction:column;
    }
+   .formulario{
+    width: 90% ;
+   }
    .duvidas{
     width: 90% ;
    }
-   .rodape{
-    flex-direction: column;
-    gap: 5px;
-   }
- 
+  
  }
